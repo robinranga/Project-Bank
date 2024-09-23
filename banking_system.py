@@ -194,8 +194,8 @@ def loan():
 def loan_status():
     global intrest , loan_am, status, bal
     if status == True:
-        print(f"You have a pending loan amount of {loan_am}$\n"
-              "Choose from following....\n")
+        print(
+              "Choose from following....")
         print("1. Pay Amount\n"
               "2. Pending Amount with intrest\n"
               "3. Back to Menu")
@@ -235,7 +235,7 @@ def comp():
           "We will definitely help you as soon as possible....")
     comp = input("Type your complaint : ")
     print("Thanks sir, for contacing us\n"
-          "Your complaint has been sucessfuly reistered"
+          "Your complaint has been sucessfuly registered\n"
           "We will be helping you soon...")
     menu()    
 
